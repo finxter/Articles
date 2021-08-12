@@ -38,12 +38,10 @@ for url in articles:
     text = article.text
     
     # run sentiment analysis on the article text
-    # 1) create a Textblob object and then get the sentiment
+    # create a Textblob object and then get the sentiment values and store them
     text_blob = TextBlob(text)
-    sentiment_obj = text_blob.sentiment
-    # 2) store the first element in sentiment_obj as polarity and the second element as subjectivity
-    polarity = sentiment_obj[0]
-    subjectivity = sentiment_obj[1]
+    polarity = text_blob.polarity
+    subjectivity = text_blob.subjectivity
 
     # now we can print out the data
     print('**************************************')
