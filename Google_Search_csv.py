@@ -1,4 +1,5 @@
-
+# Author: Mohamed Thoufeeq Rahman
+# Blog Tutorial: https://blog.finxter.com/how-to-automate-google-search-using-python/
 
 
 ''' Scrip for filling query in the search field''' 
